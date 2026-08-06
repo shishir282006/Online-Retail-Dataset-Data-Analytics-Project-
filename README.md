@@ -1,8 +1,12 @@
-🛒 Online Retail Dataset - README
+🛒 Online Retail Dataset
+ README
 📌 Overview
+
+
 The Online Retail Dataset is a transactional dataset containing purchase records from a UK-based online retail store. It is widely used for data analysis, machine learning, and business intelligence projects. The dataset provides insights into customer behavior, product performance, and sales trends.
 
 📂 Dataset Information
+
 Source: UCI Machine Learning Repository
 
 Records: ~500,000 transactions
