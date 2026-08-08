@@ -1,5 +1,7 @@
 # 📊 Online Retail Dataset (UCI Machine Learning Repository)
 
+---
+
 📌 Project Overview
 This project involves the completion, cleaning, and preprocessing of the Online Retail Dataset from the UCI Machine Learning Repository (archive.ics.uci.edu in Bing).
 The dataset contains transactional data from a UK-based online retail store between 01/12/2010 and 09/12/2011, focusing on sales of gift items.
@@ -21,7 +23,7 @@ Source: UCI Machine Learning Repository
 
 Records: ~541,909 transactions
 
-##Features:
+## Features:
 
 ### InvoiceNo – Transaction ID
 
@@ -42,25 +44,25 @@ Records: ~541,909 transactions
 ---
 
 ## 🛠️ Data Cleaning & Preprocessing Steps
-01
+
 ### Load raw dataset
 Imported the Online Retail dataset from UCI repository into Python using pandas.
-02
+
 ### Handle missing values
 Removed rows with missing CustomerID and Description to ensure data integrity.
-03
+
 ### Remove duplicates
 Dropped duplicate records to avoid bias in analysis.
-04
+
 ### Filter invalid entries
 Excluded transactions with negative or zero Quantity and UnitPrice.
-05
+
 ### Convert data types
 Transformed InvoiceDate into datetime format and standardized numeric fields.
-06
+
 ### Feature engineering
 Created new features like TotalAmount = Quantity × UnitPrice for revenue analysis.
-07
+
 ### Final dataset export
 Saved the cleaned dataset for further analysis and machine learning tasks.
 ## 📈 Applications
